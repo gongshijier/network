@@ -61,7 +61,8 @@ RequestBody requestBody = new FormBody.Builder()
                     String jsondata = response.body().string();
 ```  
 服务器返回的是json格式的数据  
-![json数据格式](https://upload-images.jianshu.io/upload_images/19741117-b9be8bdd3587b780.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![json数据格式](https://upload-images.jianshu.io/upload_images/19741117-b9be8bdd3587b780.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+
 这样我们就获得了这样的json数据的字符串  
 我们需要对这些字符串做处理  
 可以使用json或者是GSON工具来处理  
